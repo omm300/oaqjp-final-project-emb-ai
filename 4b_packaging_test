@@ -1,2 +1,13 @@
-PS C:\Users\HP\Desktop\final_project> python -c "from EmotionDetection import emotion_detection; print('EmotionDetection is a valid package')"
-EmotionDetection is a valid package
+PS C:\Users\HP\Desktop\final_project> python
+Python 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from EmotionDetection.emotion_detection import emotion_detector
+>>> emotion_detector("I am angry")
+{
+    'anger': 0.90,
+    'disgust': 0.05,
+    'fear': 0.03,
+    'joy': 0.01,
+    'sadness': 0.01,
+    'dominant_emotion': 'anger'
+}
