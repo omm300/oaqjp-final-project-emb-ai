@@ -1,0 +1,10 @@
+PS C:\Users\HP\Desktop\final_project> python -m unittest test_emotion_detection.py -v
+test_anger (test_emotion_detection.TestEmotionDetection.test_anger) ... ok
+test_blank_input (test_emotion_detection.TestEmotionDetection.test_blank_input) ... ok
+test_joy (test_emotion_detection.TestEmotionDetection.test_joy) ... ok
+test_sadness (test_emotion_detection.TestEmotionDetection.test_sadness) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.005s
+
+OK

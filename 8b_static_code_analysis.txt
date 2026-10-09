@@ -1,0 +1,4 @@
+PS C:\Users\HP\Desktop\final_project> python -m pylint server.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.33/10, +0.67)

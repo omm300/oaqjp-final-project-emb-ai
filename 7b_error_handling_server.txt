@@ -1,0 +1,5 @@
+# Blank-input handling inside the /emotionDetector Flask route:
+text = request.args.get("textToAnalyze", "")
+
+if not text.strip():
+    return "Please enter some text to analyze.", 400

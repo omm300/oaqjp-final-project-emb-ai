@@ -1,0 +1,7 @@
+Run this command from your project root:
+python -c "from EmotionDetection import emotion_detection; print('Import successful')"
+
+Expected output after a successful import:
+Import successful
+
+Submit only after running the command and confirming the output.

@@ -1,0 +1,7 @@
+# HTTP 400 handling inside emotion_detector(), after requests.post(...):
+if response.status_code == 400:
+    return empty_result.copy()
+
+# In the complete function, empty_result contains:
+# anger, disgust, fear, joy, sadness, dominant_emotion
+# each set to None.
